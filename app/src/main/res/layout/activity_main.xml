@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/scroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--
+            VerticalScrollTextLayout使用两个TextView交替展示动画，
+            请不要删除下面的两个TextView，并确保代码一模一样。
+            如果您有更好的思路，请不吝赐教：lxmyijiu@163.com。
+        -->
+        <TextView
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp" />
+    </com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout>
+
+    <com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout
+        android:id="@+id/scroll_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:textColor="#f00"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:textColor="#f00"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+    </com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout>
+
+</LinearLayout>
