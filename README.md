@@ -12,9 +12,9 @@ TextView垂直滚动布局。
 
 ##效果展示
 
-![](./VerticalScrollTextLayout.gif)
+![](./show.gif)
 ##使用方法
- 
+
 ###布局
 
 ```html
