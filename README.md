@@ -14,7 +14,7 @@ TextView垂直滚动布局。
 
 ![](./VerticalScrollTextLayout.gif)
 ##使用方法
-
+ 
 ###布局
 
 ```html
