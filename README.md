@@ -4,7 +4,7 @@ TextView垂直滚动布局。
 
 > 目前Github的TextView垂直滚动大多是通过重写onDraw方法，使用Canvas重新绘制文字实现。
 
-> 但是这样做有一个致命的缺点:在重绘后TextView的自动折行、maxLines、ellipsize等属性将会失效。
+> 但是这样做有一个致命的缺点：在重绘后TextView的自动折行、maxLines、ellipsize等属性将会失效。
 
 ##项目原理
 
