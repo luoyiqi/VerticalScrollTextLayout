@@ -6,13 +6,13 @@ TextView垂直滚动布局。
 
 > 但是这样做有一个致命的缺点:在重绘后TextView的自动折行、maxLines、ellipsize等属性将会失效。
 
-##VerticalScrollTextLayout原理
+##项目原理
 
 使用两个TextView不停的交替展示文字，形成滚动效果。
 
 ##效果展示
 
-![](./GIF.gif)
+![](./VerticalScrollTextLayout.gif)
 ##使用方法
 
 ###布局
