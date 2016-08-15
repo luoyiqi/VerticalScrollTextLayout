@@ -3,15 +3,19 @@
 TextView垂直滚动布局。
 
 > 目前Github的TextView垂直滚动大多是通过重写onDraw方法，使用Canvas重新绘制文字实现。
+
 > 但是这样做有一个致命的缺点:在重绘后TextView的自动折行、maxLines、ellipsize等属性将会失效。
 
-##原理
+##VerticalScrollTextLayout原理
 
 使用两个TextView不停的交替展示文字，形成滚动效果。
 
+##效果展示
+
+![](./GIF.gif)
 ##使用方法
 
-###xml
+###布局
 
 ```html
 <com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout
@@ -36,7 +40,7 @@ TextView垂直滚动布局。
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="23sp" />
-    </com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout>
+</com.ssyijiu.verticalscrolltextlayout.VerticalScrollTextLayout>
 ```
 
 ###代码
@@ -54,3 +58,24 @@ protected void onDestroy() {
     super.onDestroy();
 }
 ```
+
+## 联系作者
+- Github: ssyijiu
+- E-mail: lxmyijiu@163.com
+- WeChat: ssyijiu11
+
+##License
+
+Copyright 2016 ssyijiu
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
