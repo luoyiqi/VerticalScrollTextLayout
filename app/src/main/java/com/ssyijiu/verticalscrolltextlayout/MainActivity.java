@@ -8,11 +8,6 @@ import android.widget.Toast;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * author: ssyijiu
- * github: ssyijiu
- *  email: lxmyijiu@foxmail
- */
 public class MainActivity extends AppCompatActivity {
 
     private VerticalScrollTextLayout scroll_layout;
@@ -31,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 "花落知多少"
         });
 
-        scroll_layout.setTextList(textList);
+        scroll_layout.setTextList(textList).setStaticTime(1000).setScrollTime(500);
         scroll_layout.startScroll();
 
         scroll_layout.setOnClickListener(new View.OnClickListener() {

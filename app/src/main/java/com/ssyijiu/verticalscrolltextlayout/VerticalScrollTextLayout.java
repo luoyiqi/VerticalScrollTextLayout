@@ -14,6 +14,11 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by ssyijiu on 2016/8/16.
+ * Github: ssyijiu
+ * E-mail: lxmyijiu@163.com
+ */
 public class VerticalScrollTextLayout extends FrameLayout{
 
 	/** Text集合 */
